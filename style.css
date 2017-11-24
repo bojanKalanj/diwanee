@@ -19,7 +19,6 @@ a{
 }
 
 .inner-container{
-    /* width: 874px; */
     width: 61%;
     margin: 0 auto;
 }
@@ -30,7 +29,6 @@ h1{
     line-height: 1.2;
     text-transform: uppercase;
     letter-spacing: 1.4px;
-    /* margin-bottom: 15px; */
 }
 
 h2{
@@ -65,7 +63,6 @@ h6{
     margin-bottom: 25px;
     margin-left: 30px;
     color: #e6e6e6;
-
 }
 
 .redhr{
@@ -82,10 +79,8 @@ h6{
 }
 
 #for-small{
-    /* width: 100%; */
     display: none;
 }
-
 
 /* ------------------------- */
 
@@ -94,15 +89,11 @@ header{
     height: 695px;
     background-image: url(./images/header_background.jpg);
     background-position-y: 100%;
-    /* background-position: fixed; */
     background-repeat: no-repeat;
     border: 1px solid transparent;
 }
 
 nav{
-    /* border: 1px solid red; */
-    /* height: 60px; */
-    width: 65%;
     margin: 0 auto;    
     margin-top: 30px;
 }
@@ -119,7 +110,6 @@ nav img{
 #nav-links ul li{
     display: inline;
     margin-left: 40px;
-    margin-top: 5px;
 }
 
 #nav-links ul li a{
@@ -136,20 +126,8 @@ nav img{
     text-align: center; 
 }
 
-
-
-/* h1:before{
-    content: '';
-    width: 50px;
-    height: 3px;
-    background: #c41230;
-    position: absolute;
-    top: 100%;
-} */
-
 #header-text p{
     width: 545px;
-    /* margin: 35px auto; */
     margin: 0 auto;    
     font-family: Helvetica, Sans-Serif;
     font-size: 24px;
@@ -157,33 +135,6 @@ nav img{
 }
 
 /* ------------------- */
-
-
-/* @media (max-width: 1025px) {
-   
-    #container{
-        width: 100%;
-    }
-
-    header{
-        width: 100%;
-    }
-
-    #header-text h1{
-        font-size: 70px;
-        margin-bottom: 70px;
-    }
-
-    #header-text .redhr{
-        display: none;
-    }
-
-    #nav-links{
-        display: none;
-    }
-} */
-
-/* -------------------------------------- */
 
 #rectangles{
     float: left;
@@ -196,7 +147,6 @@ nav img{
     width: 33.3333%;
 	float: left;
     text-align: center;
-    /* margin-top: 95px;   */
     background-color: #fbfbfb;    
 }
 
@@ -228,24 +178,12 @@ nav img{
     width: 77%;
     margin: 0 auto;
     line-height: 1.5;
-    /* margin: 0 auto;  
-    text-align: center;
-    font-size: 16px;
-    font-weight: 300;
-    width: 400px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0; */
-    /* height: 88px; */
-    /* line-height: 28px; */
 }
 
-/* ----------HOVER------------ */
 .rectangle:hover{
     background-color: #ededed;
     cursor: pointer;
 }
-
 
 /* ------------------------- */
 
@@ -369,18 +307,11 @@ nav img{
 
 /* ----------- */
 footer{
-    /* position: relative; */
     height: 380px;
     background-color: #222;    
 }
 
-/* #footer-main{
-    height: 380px;
-    background-color: #222;
-} */
-
 .inner-footer-wrap{
-    /* width: 920px; */
     width: 64%;
     margin: 0 auto;
 }
@@ -409,10 +340,6 @@ footer{
     line-height: 1.5;
 }
 
-/* .one-third h5{
-    color: #e4e4e4;
-} */
-
 #small-footer{
     height: 68px;
     background-color: #1e1e1e;
@@ -429,8 +356,6 @@ footer{
 
 #footer-social{
     float: right;
-    /* margin-bottom: 300px;        */
-    /* line-height: 68px; */
     font-size: 14px;
 }
 
@@ -439,89 +364,6 @@ footer{
     margin-bottom: 12px;   
     margin-right: 25px;
     color: #313131;
-}
-
-
-/* #jobs{
-    width: 100%;
-}
-
-#jobs h4,
-#jobs h2,
-#jobs p{
-    text-align: center;
-}
-
-.job{
-    height: 260px;
-    border: 1px solid red;
-}
-
-#job-desc{
-    float: left;
-}
-
-.job h3{
-    margin-top: 50px;
-}
-
-.job li{
-    display: inline-block;
-    width: 88px;
-    height: 35px;
-    margin-right: 10px;
-    text-align: center;
-    vertical-align: center;
-    border: 1px solid #bbbbbb;
-    line-height: 35px;
-    color: #c41230;
-}
-
-.job button{
-    float: right;
-    margin-top: 100px;
-    height: 45px;
-    width: 167px;
-    background-color: transparent;
-    border: 2px solid #222;
-    text-transform: uppercase;
-}
-
-.job button:hover{
-    cursor: pointer;
-}
-
-#btnMore button{
-    background-color: #d7d7d7;
-    border: none;
-    width: 220px;
-    height: 50px;
-    color: #222;
-    text-transform: uppercase;
-    margin-left: 560px;
-}
-
-#loadMoreBtn:hover{
-    cursor: pointer;
-}
-
-/* ----------HOVER------------ */
-
-
-/* .job:hover{
-    background-color: #222;
-    cursor: pointer;
-}
-
-.job:hover h3,
-.job:hover p,
-.job:hover li{
-    color: #fff;
-}
-
-.job:hover button{
-    border: 2px solid #fff;
-    color: #fff;
 }
 
 /* -------------------------- */
@@ -550,11 +392,9 @@ footer{
         width: 80px;
         height: 80px;
         cursor: pointer;
-        /* background: #ffd; */
     }
 
     #hamburger{
-        /* z-index: 100; */
         width: 30px;
         height: 3px;
         background: #222;
@@ -611,24 +451,10 @@ footer{
         right: 5%;
         left: 50%;
         display: none;
-        /* height: 0; */
-        /* overflow: hidden; */
-        /* display: none; */
-        /* display: block; */
-        
-    }
-
-    .activedropdown{
-        /* top: 0; */
-        /* display: none; */
-        /* display: block;         */
-        /* height: auto */
-        /* display: block; */
     }
     
     #dropdown ul{
         margin-top: 130px;
-        /* margin-bottom: 20%;; */
     }
     
     #dropdown li{
@@ -649,13 +475,7 @@ footer{
         bottom: 35px;
         left: 55%;
         right: 10%;
-        display: none;        
-        /* width: 90%; */
-        /* height: 50px; */
-        /* border: 1px solid red; */
-        /* margin: 0 auto; */
-        /* margin-top: 15%;     */
-        /* margin-bottom: 0; */
+        display: none;    
     }
     
     #dropdown-social p{
@@ -664,26 +484,11 @@ footer{
         text-transform: uppercase;
         color: #797878;
         letter-spacing: 1.5px;
-        /* margin-bottom: 0; */
     }
     
     #dropdown-social a{
         float: right;
         margin-left: 30px;
-        /* margin-bottom: 5px; */
-    }
-
-    #dropdown{
-        /* display: block;
-        right: 5%;
-        left: 5%; */
-        /* left: 60%; */
-        /* right: 5%; */
-    }
-
-    #dropdown-social{
-        /* left: 10%;
-        right: 10%; */
     }
 
     header{
@@ -736,7 +541,6 @@ footer{
     #jobs-desc p{
         width: 70%;
     }
-
 }
 
 @media(max-width: 980px){
@@ -748,10 +552,6 @@ footer{
     header{
         height: 560px;
     }
-/* 
-    #header-text{
-        text-align: center;
-    } */
 
     #for-large{
         display: none;
@@ -760,9 +560,6 @@ footer{
     #for-small{
         display: inline;
         font-size: 50px;        
-        /* width: 100%; */
-        /* margin: 0 auto; */
-        /* text-align: center; */
     }
 
     .rectangle{
@@ -797,53 +594,7 @@ footer{
     }
 
     #jobs-desc p{
-        /* margin-left:auto;
-        margin-right:auto;
-        text-align:center; */
         display: inline-block;
         font-size: 20px;
-        /* margin-bottom: 80px; */
-        /* width: 80%; */
-    }
-    /* .job-desc li{
-        width: 20px;
-        border: none;
-    } */
-
-    .job-desc li{
-        width: 50px;
-        height: 30px;
-        line-height: 30px;
-        margin-right: 3px;
-        display: inline-block;
-        text-align: center;
-        border: none;
-        font-size: 10px;
-    }
-
-    .job-desc li:hover{
-
-    }
-
-    .rectangle{
-        width: 100%;
-    }
-
-    .rectangle hr{
-        width: 50px;
-    }
-
-
-}
-
-@media(max-width: 736px){
-    #dropdown{
-        left: 0;
-        right: 0;
-    }
-
-    #dropdown-social{
-        left: 5%;
-        right: 5%;
     }
 }
