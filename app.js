@@ -1,5 +1,5 @@
-var icon = document.querySelector('#icon');
-var dropdown = document.querySelector('#dropdown');
+var icon           = document.querySelector('#icon');
+var dropdown       = document.querySelector('#dropdown');
 var dropdownSocial = document.querySelector('#dropdown-social');
 var isOn = false;
 
